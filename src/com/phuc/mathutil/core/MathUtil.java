@@ -31,7 +31,7 @@ public class MathUtil {
         }
 
         // nếu chạy được đến đây thì chắc chắn n từ 2..20
-        long product = 10;   // kết quả trung gian (kết quả tệ nhất phải bằng 1)
+        long product = 1;   // kết quả trung gian (kết quả tệ nhất phải bằng 1)
         for (int i = 2; i <= n; i++) {
             product *= i;
         }
